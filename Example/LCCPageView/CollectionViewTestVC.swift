@@ -69,6 +69,4 @@ extension CollectionViewTestVC : PageCollectionViewDataSource {
         cell.contentView.backgroundColor = UIColor.randomColor()
         return cell
     }
-    
-    
 }
