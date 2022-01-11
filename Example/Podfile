@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LCCPageView_Example' do
+  pod 'LCCPageView', :path => '../'
+
+  target 'LCCPageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
