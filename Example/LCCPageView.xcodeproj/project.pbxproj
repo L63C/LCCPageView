@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00859BDB278D72BD009039EE /* CollectionViewTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00859BDA278D72BD009039EE /* CollectionViewTestVC.swift */; };
+		00859BDE278D72CC009039EE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00859BDC278D72CC009039EE /* UIColor+Extension.swift */; };
+		00859BDF278D72CC009039EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00859BDD278D72CC009039EE /* ViewController.swift */; };
 		08326D390D2E02BAFB9862EA /* Pods_LCCPageView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B150BF54D4E0748CA9E2D180 /* Pods_LCCPageView_Example.framework */; };
 		1EC34777063EC3FF67282DBC /* Pods_LCCPageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9188436726BDC35019C716 /* Pods_LCCPageView_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00859BDA278D72BD009039EE /* CollectionViewTestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTestVC.swift; sourceTree = "<group>"; };
+		00859BDC278D72CC009039EE /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		00859BDD278D72CC009039EE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D9188436726BDC35019C716 /* Pods_LCCPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCCPageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20001099A458EFF54ECEB9AD /* Pods-LCCPageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCPageView_Example.release.xcconfig"; path = "Target Support Files/Pods-LCCPageView_Example/Pods-LCCPageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3E5AB0279EF3F0D13091F1C5 /* Pods-LCCPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCPageView_Example.debug.xcconfig"; path = "Target Support Files/Pods-LCCPageView_Example/Pods-LCCPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -35,18 +40,17 @@
 		607FACD01AFB9204008FA782 /* LCCPageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCCPageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* LCCPageView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCCPageView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6AB71080ADB36160D98E91AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6AB71080ADB36160D98E91AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B150BF54D4E0748CA9E2D180 /* Pods_LCCPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCCPageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D20F552ADAA46C9926D8759D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D20F552ADAA46C9926D8759D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E41D06C7F2391B5A919188D0 /* Pods-LCCPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCPageView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LCCPageView_Tests/Pods-LCCPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F274EF06DE59DFC5E8134113 /* LCCPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LCCPageView.podspec; path = ../LCCPageView.podspec; sourceTree = "<group>"; };
+		F274EF06DE59DFC5E8134113 /* LCCPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LCCPageView.podspec; path = ../LCCPageView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +97,10 @@
 		607FACD21AFB9204008FA782 /* Example for LCCPageView */ = {
 			isa = PBXGroup;
 			children = (
+				00859BDC278D72CC009039EE /* UIColor+Extension.swift */,
+				00859BDD278D72CC009039EE /* ViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				00859BDA278D72BD009039EE /* CollectionViewTestVC.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -156,7 +162,6 @@
 				E41D06C7F2391B5A919188D0 /* Pods-LCCPageView_Tests.debug.xcconfig */,
 				4C57691C6AD25ABD28A410B9 /* Pods-LCCPageView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +232,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,7 +337,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				00859BDE278D72CC009039EE /* UIColor+Extension.swift in Sources */,
+				00859BDB278D72BD009039EE /* CollectionViewTestVC.swift in Sources */,
+				00859BDF278D72CC009039EE /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

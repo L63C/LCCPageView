@@ -1,0 +1,6 @@
+framework module Pods_LCCPageView_Example {
+  umbrella header "Pods-LCCPageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module LCCPageView {
+  umbrella header "LCCPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

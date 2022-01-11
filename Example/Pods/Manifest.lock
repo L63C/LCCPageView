@@ -1,0 +1,16 @@
+PODS:
+  - LCCPageView (0.1.0)
+
+DEPENDENCIES:
+  - LCCPageView (from `../`)
+
+EXTERNAL SOURCES:
+  LCCPageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCCPageView: 5feb5a6dcd3d63d7da40a35f368d89b76e6a4740
+
+PODFILE CHECKSUM: b71ed2777f0742eedf7056389083bcf8529e4bbc
+
+COCOAPODS: 1.11.2

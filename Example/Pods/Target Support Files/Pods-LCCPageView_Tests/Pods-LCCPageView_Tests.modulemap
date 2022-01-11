@@ -1,0 +1,6 @@
+framework module Pods_LCCPageView_Tests {
+  umbrella header "Pods-LCCPageView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
