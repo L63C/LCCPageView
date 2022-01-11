@@ -65,6 +65,7 @@ extension CollectionViewTestVC : PageCollectionViewDataSource {
 }
 ```
 ### 类似今日头条的滑动标题
+![](https://github.com/L63C/LCCPageView/blob/3a2c733343432c6656b9d94a136d8ffd690a10fb/title.mov)
 ```
 //import LCCPageView
     fileprivate func setupUI() {
