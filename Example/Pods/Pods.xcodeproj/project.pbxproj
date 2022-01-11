@@ -51,7 +51,7 @@
 		2E76CDA4CB6E04307F7A7E74E0AB6BAB /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = LCCPageView/Classes/PageView.swift; sourceTree = "<group>"; };
 		2E8E53BEC05750773D755FF2C58568A5 /* Pods-LCCPageView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCCPageView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2F464769271370F9825DE0F93046B75A /* Pods-LCCPageView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCPageView_Example-Info.plist"; sourceTree = "<group>"; };
-		44BE53B146F9F322859C9C0B00809DAF /* LCCPageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCCPageView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44BE53B146F9F322859C9C0B00809DAF /* LCCPageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LCCPageView.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		4632B518E7B8BDFAB47D00DFB6890F53 /* Pods-LCCPageView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCCPageView_Tests-dummy.m"; sourceTree = "<group>"; };
 		5250ABB11EFB6765C5AAA08B5711881C /* PageTitleConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageTitleConfig.swift; path = LCCPageView/Classes/PageTitleConfig.swift; sourceTree = "<group>"; };
 		6017F6E1228B55604F468CE4FA18B199 /* LCCPageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCCPageView-umbrella.h"; sourceTree = "<group>"; };
@@ -63,15 +63,15 @@
 		7000E46DC74354BBC3E7E4E044AA6384 /* Pods-LCCPageView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCCPageView_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73187BE48DB560476C78B5174525DA7A /* Pods-LCCPageView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCCPageView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		77D2FB83C7D4EEA342AA7B457EB4ECAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		77D2FB83C7D4EEA342AA7B457EB4ECAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7BB2EAC673DDF1EF123E69ABDDCCBB14 /* PageTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageTitleView.swift; path = LCCPageView/Classes/PageTitleView.swift; sourceTree = "<group>"; };
 		8DEB3486F138BFA48EFF7386E9E7DC69 /* Pods-LCCPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		99DE043563F824FE748015CC28D759E5 /* Pods-LCCPageView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCPageView_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5D31BE7B52E945C2F85EE50390A0AC /* Pods-LCCPageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCPageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA8166BD67ACF37D42D26EB6B8621FF3 /* LCCPageView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCCPageView; path = LCCPageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC43D592B32550E29E2EAC017E655B2 /* Pods-LCCPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AFF26880F3B9CEA6E4FCF10D06750A7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AFF26880F3B9CEA6E4FCF10D06750A7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C6A3FBD3BBEA88AD30BC33BA45CFAAA3 /* LCCPageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCCPageView-Info.plist"; sourceTree = "<group>"; };
 		CC29345AC9248DF700267B80D1A68560 /* Pods-LCCPageView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCCPageView_Tests.modulemap"; sourceTree = "<group>"; };
 		D2A2FA1736C8ED629C404D784DF9A30B /* LCCPageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCCPageView.release.xcconfig; sourceTree = "<group>"; };
@@ -709,8 +709,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

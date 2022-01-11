@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LCCPageView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LCCPageView.'
+  s.summary          = '今日头条标题，横向表情键盘'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  模仿今日头条标题，横向表情键盘
                        DESC
 
   s.homepage         = 'https://github.com/lu63chuan@163.com/LCCPageView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lu63chuan@163.com' => 'lu63chuan@163.com' }
-  s.source           = { :git => 'https://github.com/lu63chuan@163.com/LCCPageView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:L63C/LCCPageView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
